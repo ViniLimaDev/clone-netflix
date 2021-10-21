@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.css">
+
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <div class="navbar">
+                <nav>
+                    <a href="">Filmes</a>
+                    <a href="">Séries</a>
+                    <a href="">Em alta</a>
+                    <a href="">Minha Lista</a>
+                    <a href="">Sair</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+            <div class="filme-principal">
+                <div class="filme-principal-texto">
+                    <h3 class="titulo">FARGO</h3>
+                    <p class="descricao">Various chronicles of deception, intrigue and murder in and around frozen Minnesota.
+                        Yet all of these tales mysteriously lead back one way or another to Fargo, North Dakota.</p>    
+                    <button role="button" class="botao">
+                        <i class="far fa-play-circle"></i>
+                        ASSISTIR
+                    </button>
+                    <button role="button" class="botao" id="botao-info">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="filmes-carousel">
+                <h3 class="titulo-carousel">Em alta</h3>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="resources/marvels-daredevil.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="resources/atlanta.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="resources/django.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="resources/mission-impossible.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="resources/stranger-things.jpg">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="resources/the-irishman.jpg">
+                    </div>
+                </div>
+            </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/b0baa87e2e.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+</body>
+</html>
